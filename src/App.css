@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:700');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
 .App {
   text-align: center;
+  
+
 }
 
 .App-logo {
@@ -35,4 +41,157 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  /* -webkit-transform: perspective(900px);
+  -webkit-transform-style: preserve-3d; */
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);  
+  /* background-image: url( 'https://getreelcinemas.com//wp-content/uploads/2015/02/Background-Narrow.jpg'); */
+  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+  background-size: cover;
+}
+/* img{
+  width: 500px;
+  height: 600px;
+} */
+
+h3,p{
+  color: black;
+}
+.movieslist{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 100px;
+  
+ 
+}
+.card{
+  /* background-color: brown; */
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);  margin-top: 50px;
+  border: 20px white;
+}
+hr{
+  color: black;
+}
+/* .btn{
+  margin-bottom: 10px;
+} */
+/* <!-- HTML !-->
+<button class="button-12" role="button">Button 12</button> */
+
+/* CSS */
+.button-12 {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  padding: 0px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: black;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.button-12:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+.formadd{
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);  /* background-color: brown; */
+  width: 500px;
+  height: 600px;
+  
+}
+.formcontents{
+
+padding: 50px;
+ margin-left: 50px;
+}
+input{
+  margin-bottom: 50px;
+  width:300px;
+  height: 30px;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+}
+.mov{
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.formmmmm{
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  /* background-color: brown; */
+  width: 100%;
+  height: 150px;
+  border-bottom:2px solid white ;
+  border-top: 2px solid white;
+
+}
+.container{
+  position: relative;
+}
+.ima{
+  display: block;
+ 
+}
+.iconn{
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: black;
+  cursor: pointer;
+
+  border: 2px solid white;
+}
+.iconn2{
+  cursor: pointer;
+  position: absolute;
+top: 0;
+  right: 0;
+  color: black;
+  background-color: white;
+
+  border: 2px solid white;
+}
+
+
+
+.card1 {
+  /* text-align:center; */
+  /* position: absolute; */
+  /* left: 100px; */
+  /* width: 800px;
+  height: 900x; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  transition:.6s;
+  
+  transform: rotatex(60deg) translatey(-200px) translatez(-100px);
+  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+}
+.card1:hover{
+  transform: rotatex(0deg);
+  transform: rotatez(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+.card1 img{
+ 
+  transform: translateY(0px);
+  width:400px;
+  height:500px;
 }
